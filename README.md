@@ -104,7 +104,7 @@ Berikut Hasil Output Program Saya yang menunjukkan interaksi pengguna dengan pro
 
 ![gambar15](screenshot/Out1.png)
 
-Dalam Program menampilkan menu Dapat Memilih lima pilihan.
+-*Dalam Program menampilkan menu Dapat Memilih lima pilihan*.
     -Pengguna memilih opsi 1 untuk menambahkan data baru.
     -Program meminta pengguna untuk memasukkan nama (Ali) dan nilai (85).
     -Setelah menerima input, program menambahkan data mahasiswa dengan nama "Ali" dan nilai 85 ke dalam daftar.
@@ -114,7 +114,7 @@ Dalam Program menampilkan menu Dapat Memilih lima pilihan.
 
 ![gambar16](screenshot/Out2.png)
 
-Program ini menampilkan menu lagi.
+-*Program ini menampilkan menu lagi*.
     -Pengguna memilih opsi 2 untuk menampilkan semua data mahasiswa.
     -Program menampilkan daftar mahasiswa, yang saat ini hanya berisi satu mahasiswa: "Ali" dengan nilai 85.
 
@@ -122,7 +122,7 @@ Program ini menampilkan menu lagi.
 
 ![gambar17](screenshot/Out3.png)
 
-Program menampilkan menu sekali lagi.
+-*Program menampilkan menu sekali lagi*.
     -Pengguna memilih opsi 3 untuk menghapus data.
     -Program meminta pengguna untuk memasukkan nama mahasiswa yang ingin dihapus, dan pengguna memasukkan "Ali".
     -Program mencari mahasiswa dengan nama "Ali" dalam daftar dan berhasil menghapusnya.
@@ -132,7 +132,7 @@ Program menampilkan menu sekali lagi.
 
 ![gambar18](screenshot/Out4.png)
 
-Program menampilkan menu lagi.
+-*Program menampilkan menu lagi*.
     -Pengguna memilih opsi 2 untuk menampilkan data mahasiswa.
     -Program memeriksa daftar mahasiswa (self.data) dan menemukan bahwa tidak ada data yang tersisa (karena "Ali" telah dihapus).
     -Muncul pesan "Tidak ada data." untuk menunjukkan bahwa daftar mahasiswa kosong
@@ -141,7 +141,7 @@ Program menampilkan menu lagi.
 
 ![gambar19](screenshot/Out5.png)
 
-Program menampilkan menu sekali lagi.
+-*Program menampilkan menu sekali lagi*.
     -Pengguna memilih opsi 5 untuk keluar dari program.
     -Program mencetak pesan "Program selesai." dan menghentikan eksekusi.
 
@@ -286,7 +286,8 @@ Fungsinya untuk Mengakhiri program.Hal ini Memberikan opsi kepada pengguna untuk
   ### Step 10 : End
 Fungsinya Menandakan titik akhir dari proses program. dengan ini Menyatakan bahwa semua operasi telah selesai dan tidak ada lagi proses yang akan dijalankan
 
-![gambar29](screenshot/ss24.png)
+![ss24](https://github.com/user-attachments/assets/39793f78-371a-481d-99f6-6835c640c495)
+
 
 Setiap langkah yang ada dalam flowchart memiliki fungsi spesifik dan kegunaan yang jelas, tidak hanya untuk membantu pengguna memahami proses tetapi juga untuk memastikan pengoperasian program dapat dilakukan dengan efisien dan tanpa kesalahan. Flowchart ini mendemonstrasikan logika pemrograman dengan cara yang teratur, memudahkan pengembangan, pemeliharaan, dan pemahaman program secara keseluruhan.
 
