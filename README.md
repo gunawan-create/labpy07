@@ -19,23 +19,22 @@ Dalam program code "Class Mahasiswa" ini berfungsi untuk Mendefinisikan class be
 Dalam Method tambah berfungsi ini menerima dua parameter yaitu nama dan nilai.
 
     -Menambahkan Data: Data mahasiswa (nama dan nilai) ditambahkan ke dalam list data dalam bentuk dictionary.
-    
     -Output: Menampilkan pesan bahwa data mahasiswa berhasil ditambahkan
 
 ![gambar2](screenshot/ss2.png)
 
 ### Step 3 : Menampilkan Data
 Fungsi ini digunakan untuk menampilkan semua data mahasiswa.
+
     -Cek Data Kosong: Memeriksa apakah list data kosong. Jika kosong, menampilkan pesan "Tidak ada data."
-    
     -Menampilkan Data: Jika ada data, menggunakan enumerate untuk mendapatkan indeks dan data mahasiswa. Setiap mahasiswa ditampilkan bersama dengan nomor urutnya.
 
 ![gambar3](screenshot/ss3.png)
 
 ### Step 4 : Menghapus Data
 Dalam program Method hapus: Fungsi ini digunakan untuk menghapus data mahasiswa berdasarkan nama.
+
     -Pencarian Data: Melakukan iterasi pada list data untuk menemukan mahasiswa dengan nama yang sesuai (pencocokan tidak sensitif terhadap huruf besar/kecil).
-    
     -Penghapusan Data: Jika ditemukan, mahasiswa dihapus dari list dan menampilkan pesan sukses. Jika tidak ditemukan, menampilkan pesan bahwa data tidak ada
 
 ![gambar4](screenshot/ss4.png)
@@ -44,7 +43,6 @@ Dalam program Method hapus: Fungsi ini digunakan untuk menghapus data mahasiswa 
 Fungsi ini digunakan untuk mengubah nilai mahasiswa berdasarkan nama.
 
     -Pencarian Data: Melakukan iterasi pada list data untuk menemukan mahasiswa dengan nama yang sesuai.
-    
     -Pengubahan Data: Jika ditemukan, nilai mahasiswa diperbarui dengan nilai_baru, dan menampilkan pesan sukses. Jika tidak ditemukan, menampilkan pesan bahwa data tidak ada.
 
 ![gambar5](screenshot/ss5.png)
