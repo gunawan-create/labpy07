@@ -17,7 +17,9 @@ Dalam program code "Class Mahasiswa" ini berfungsi untuk Mendefinisikan class be
 
 ### Step 2 : Menambahkan Data
 Dalam Method tambah berfungsi ini menerima dua parameter yaitu nama dan nilai.
+
     -Menambahkan Data: Data mahasiswa (nama dan nilai) ditambahkan ke dalam list data dalam bentuk dictionary.
+    
     -Output: Menampilkan pesan bahwa data mahasiswa berhasil ditambahkan
 
 ![gambar2](screenshot/ss2.png)
@@ -25,6 +27,7 @@ Dalam Method tambah berfungsi ini menerima dua parameter yaitu nama dan nilai.
 ### Step 3 : Menampilkan Data
 Fungsi ini digunakan untuk menampilkan semua data mahasiswa.
     -Cek Data Kosong: Memeriksa apakah list data kosong. Jika kosong, menampilkan pesan "Tidak ada data."
+    
     -Menampilkan Data: Jika ada data, menggunakan enumerate untuk mendapatkan indeks dan data mahasiswa. Setiap mahasiswa ditampilkan bersama dengan nomor urutnya.
 
 ![gambar3](screenshot/ss3.png)
@@ -32,13 +35,16 @@ Fungsi ini digunakan untuk menampilkan semua data mahasiswa.
 ### Step 4 : Menghapus Data
 Dalam program Method hapus: Fungsi ini digunakan untuk menghapus data mahasiswa berdasarkan nama.
     -Pencarian Data: Melakukan iterasi pada list data untuk menemukan mahasiswa dengan nama yang sesuai (pencocokan tidak sensitif terhadap huruf besar/kecil).
+    
     -Penghapusan Data: Jika ditemukan, mahasiswa dihapus dari list dan menampilkan pesan sukses. Jika tidak ditemukan, menampilkan pesan bahwa data tidak ada
 
 ![gambar4](screenshot/ss4.png)
 
 ### Step 5 : Mengubah Data
 Fungsi ini digunakan untuk mengubah nilai mahasiswa berdasarkan nama.
+
     -Pencarian Data: Melakukan iterasi pada list data untuk menemukan mahasiswa dengan nama yang sesuai.
+    
     -Pengubahan Data: Jika ditemukan, nilai mahasiswa diperbarui dengan nilai_baru, dan menampilkan pesan sukses. Jika tidak ditemukan, menampilkan pesan bahwa data tidak ada.
 
 ![gambar5](screenshot/ss5.png)
@@ -51,10 +57,15 @@ Dalam Program ini Memastikan bahwa kode di bawahnya hanya dijalankan jika file i
 ### Step 7 : Loop Menu
 Program menggunakan loop while True untuk terus menampilkan menu hingga pengguna memilih untuk keluar.
 Ada beberapa pilihan menu:
+
     1. Tambah Data: Memanggil fungsi untuk menambahkan data.
+    
     2. Tampilkan Data: Memanggil fungsi untuk menampilkan semua data mahasiswa.
+    
     3. Hapus Data: Memanggil fungsi untuk menghapus data mahasiswa.
+    
     4. Ubah Data: Memanggil fungsi untuk mengubah data mahasiswa.
+    
     5. Keluar: Menghentikan program.
 
 ![gambar7](screenshot/ss7.png)
@@ -105,6 +116,7 @@ Berikut Hasil Output Program Saya yang menunjukkan interaksi pengguna dengan pro
 ![gambar15](screenshot/Out1.png)
 
 -*Dalam Program menampilkan menu Dapat Memilih lima pilihan*.
+
     -Pengguna memilih opsi 1 untuk menambahkan data baru.
     -Program meminta pengguna untuk memasukkan nama (Ali) dan nilai (85).
     -Setelah menerima input, program menambahkan data mahasiswa dengan nama "Ali" dan nilai 85 ke dalam daftar.
@@ -115,6 +127,7 @@ Berikut Hasil Output Program Saya yang menunjukkan interaksi pengguna dengan pro
 ![gambar16](screenshot/Out2.png)
 
 -*Program ini menampilkan menu lagi*.
+
     -Pengguna memilih opsi 2 untuk menampilkan semua data mahasiswa.
     -Program menampilkan daftar mahasiswa, yang saat ini hanya berisi satu mahasiswa: "Ali" dengan nilai 85.
 
@@ -123,6 +136,7 @@ Berikut Hasil Output Program Saya yang menunjukkan interaksi pengguna dengan pro
 ![gambar17](screenshot/Out3.png)
 
 -*Program menampilkan menu sekali lagi*.
+
     -Pengguna memilih opsi 3 untuk menghapus data.
     -Program meminta pengguna untuk memasukkan nama mahasiswa yang ingin dihapus, dan pengguna memasukkan "Ali".
     -Program mencari mahasiswa dengan nama "Ali" dalam daftar dan berhasil menghapusnya.
@@ -133,6 +147,7 @@ Berikut Hasil Output Program Saya yang menunjukkan interaksi pengguna dengan pro
 ![gambar18](screenshot/Out4.png)
 
 -*Program menampilkan menu lagi*.
+
     -Pengguna memilih opsi 2 untuk menampilkan data mahasiswa.
     -Program memeriksa daftar mahasiswa (self.data) dan menemukan bahwa tidak ada data yang tersisa (karena "Ali" telah dihapus).
     -Muncul pesan "Tidak ada data." untuk menunjukkan bahwa daftar mahasiswa kosong
@@ -142,6 +157,7 @@ Berikut Hasil Output Program Saya yang menunjukkan interaksi pengguna dengan pro
 ![gambar19](screenshot/Out5.png)
 
 -*Program menampilkan menu sekali lagi*.
+
     -Pengguna memilih opsi 5 untuk keluar dari program.
     -Program mencetak pesan "Program selesai." dan menghentikan eksekusi.
 
